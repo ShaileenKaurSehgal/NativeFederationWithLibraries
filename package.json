@@ -18,11 +18,17 @@
     "@angular/platform-browser": "^17.3.0",
     "@angular/platform-browser-dynamic": "^17.3.0",
     "@angular/router": "^17.3.0",
+    "bootstrap": "^5.3.3",
+    "es-module-shims": "^1.5.12",
+    "header": "file:dist/header/header-0.0.1.tgz",
+    "my-lib": "file:../angular-workspace/dist/my-lib/my-lib-0.0.1.tgz",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },
   "devDependencies": {
+    "@angular-architects/native-federation": "^17.1.8",
+    "@angular-devkit/build-angular": "^17.3.7",
     "@angular/cli": "^17.3.0",
     "@angular/compiler-cli": "^17.3.0",
     "@types/jasmine": "~5.1.0",
@@ -32,6 +38,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^17.3.0",
     "typescript": "~5.4.2"
   }
 }

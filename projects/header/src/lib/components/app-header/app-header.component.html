@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navId">
+        <li class="nav-item">
+            <a routerLink="" class="nav-link text-white">Home</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/users" class="nav-link text-white">Users</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/todos" class="nav-link text-white">Todos</a>
+        </li>
+    </ul>
+    <div class="d-flex mx-2">
+        <input type="text" class="form-control" placeholder="Search" (input)="onSearch($event)" />
+    </div>
+</nav>
